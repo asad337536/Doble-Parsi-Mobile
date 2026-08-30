@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Persian (default) -->
+    <string name="app_name">دوبله پارسی</string>
+    <string name="app_tagline">دوبلهٔ زندهٔ صدای گوشی با هوش مصنوعی</string>
+    <string name="app_version">نسخهٔ ۱.۰.۰</string>
+
+    <string name="section_key">کلید دسترسی</string>
+    <string name="section_engine">موتور دوبله</string>
+    <string name="section_outputs">خروجی‌ها و پخش</string>
+    <string name="section_advanced">تنظیمات پیشرفته</string>
+    <string name="section_transcript">متن زنده</string>
+
+    <string name="api_key">کلید API جِمینای</string>
+    <string name="api_key_hint">AIza…</string>
+    <string name="api_key_help">کلید را از Google AI Studio بگیر؛ فقط روی همین گوشی و در حافظهٔ خصوصی اپ ذخیره می‌شود.</string>
+    <string name="target_lang">زبان دوبله</string>
+    <string name="model">مدل ترجمهٔ زنده</string>
+
+    <string name="live_playback">پخش زندهٔ دوبله</string>
+    <string name="live_playback_hint">دوبله همان لحظه از بلندگو شنیده می‌شود.</string>
+    <string name="duck_original">کم‌کردن صدای اصلی هنگام دوبله</string>
+    <string name="duck_original_hint">وقتی گویندهٔ دوبله حرف می‌زند، صدای اصلی پایین می‌آید.</string>
+    <string name="save_audio">ذخیرهٔ فایل صوتی خروجی</string>
+    <string name="save_audio_hint">فایل m4a هم‌نام ویدئو در پوشهٔ دانلود.</string>
+    <string name="save_subtitle">ذخیرهٔ زیرنویس</string>
+    <string name="save_subtitle_hint">زیرنویس SRT هم‌نام ویدئو.</string>
+    <string name="bilingual">زیرنویس زبان اصلی هم ذخیره شود</string>
+    <string name="bilingual_hint">یک فایل SRT جدا برای زبان مبدأ.</string>
+    <string name="bubble">دکمهٔ شناور روی صفحه</string>
+    <string name="bubble_hint">کنترل کامل جلسه از داخل هر اپ: شروع، پایان و زمان دوبله.</string>
+
+    <string name="audio_source">محتوای فایل صوتی</string>
+    <string name="audio_source_mix">میکس دوبله و صدای اصلی</string>
+    <string name="audio_source_dub">فقط دوبله</string>
+    <string name="dub_volume">بلندی صدای دوبله</string>
+    <string name="subtitle_offset">جبران تاخیر زیرنویس</string>
+    <string name="millis_short">میلی‌ثانیه</string>
+
+    <string name="start">شروع دوبله</string>
+    <string name="stop">پایان دوبله</string>
+
+    <string name="status_idle">آماده</string>
+    <string name="status_connecting">در حال اتصال…</string>
+    <string name="status_live">دوبلهٔ زنده فعال</string>
+    <string name="status_speaking">گویندهٔ دوبله در حال صحبت</string>
+    <string name="status_finishing">در حال ذخیرهٔ خروجی‌ها…</string>
+    <string name="status_saved">ذخیره شد</string>
+
+    <string name="dub_text">متن دوبله</string>
+    <string name="source_text">متن زبان اصلی</string>
+
+    <string name="notification_channel">جلسهٔ دوبله</string>
+    <string name="notification_channel_saved">ذخیرهٔ خروجی‌ها</string>
+    <string name="notification_title">دوبلهٔ زنده فعال است</string>
+    <string name="notification_stop">پایان</string>
+    <string name="notification_saving">در حال ذخیرهٔ خروجی‌ها…</string>
+    <string name="notification_saved_title">خروجی‌های دوبله ذخیره شد</string>
+    <string name="notification_saved_none">جلسه تمام شد؛ چیزی برای ذخیره نبود.</string>
+
+    <string name="perm_mic">برای گرفتن صدای پخش‌شده اجازهٔ میکروفون لازم است.</string>
+    <string name="perm_capture">اجازهٔ ضبط صدای دستگاه داده نشد.</string>
+    <string name="perm_overlay">برای دکمهٔ شناور اجازهٔ «نمایش روی برنامه‌های دیگر» لازم است.</string>
+    <string name="notif_access">برای این‌که فایل‌ها هم‌نام خودِ ویدئو ذخیره شوند، دسترسی «اعلان‌ها» را برای دوبله پارسی روشن کن.</string>
+    <string name="notif_access_open">روشن کردن دسترسی</string>
+
+    <string name="err_no_key">اول کلید API را وارد کن.</string>
+    <string name="err_no_output">حداقل یکی از پخش زنده، ذخیرهٔ صدا یا زیرنویس باید روشن باشد.</string>
+    <string name="err_socket">اتصال به سرور جِمینای قطع شد؛ تلاش مجدد…</string>
+
+    <string name="saved_files">ذخیره شد در Download/Doble Parsi</string>
+    <string name="how_to_title">چطور کار می‌کند</string>
+    <string name="how_to">صدای هر اپی (یوتیوب، تلگرام، مرورگر و …) را پخش کن و «شروع دوبله» را بزن. اپ صدای درحال‌پخش گوشی را می‌گیرد و همان لحظه دوبله می‌کند؛ در پایان، فایل صوتی و زیرنویس هم‌نام ویدئو ذخیره می‌شود.</string>
+    <string name="credit">ساخته‌شده توسط QW-AI-Code</string>
+    <string name="lang_toggle">EN</string>
+
+    <!-- دکمهٔ شناور -->
+    <string name="section_bubble">دکمهٔ شناور</string>
+    <string name="bubble_keep">ماندن دکمه بعد از پایان دوبله</string>
+    <string name="bubble_keep_hint">دکمه محو نمی‌شود؛ برای ویدئوی بعدی دوبله را از همان دکمه شروع کن.</string>
+    <string name="bubble_timer">نمایش زمان ضبط دوبله روی دکمه</string>
+    <string name="bubble_timer_hint">تایمر دقیقه:ثانیه داخل خود دکمهٔ شناور.</string>
+    <string name="bubble_fade">کم‌رنگ شدن دکمه در حالت بی‌کار</string>
+    <string name="bubble_fade_hint">وقتی دوبله فعال نیست، دکمه کم‌رنگ می‌شود تا جلوی ویدئو را نگیرد.</string>
+    <string name="bubble_collapse">جمع شدن دکمه در لبهٔ صفحه</string>
+    <string name="bubble_collapse_hint">در حالت بی‌کار به یک زبانهٔ باریک کنار صفحه تبدیل می‌شود؛ با یک لمس باز می‌شود.</string>
+    <string name="bubble_snap">جابه‌جایی خودکار به نزدیک‌ترین لبه</string>
+    <string name="bubble_snap_hint">بعد از کشیدن، دکمه خودش به لبهٔ نزدیک می‌چسبد و داخل صفحه می‌ماند.</string>
+    <string name="bubble_smart">حالت هوشمند</string>
+    <string name="bubble_smart_hint">دکمه با وضعیت جلسه هماهنگ می‌شود: هنگام شروع دوبله خودش بیدار و کامل می‌شود و بعد از بی‌کاری زودتر جمع می‌شود.</string>
+    <string name="bubble_scale">اندازهٔ دکمه</string>
+    <string name="bubble_tip">یک لمس: شروع/پایان دوبله · کشیدن: جابه‌جایی · لمس طولانی: حذف دکمه تا شروع بعدی.</string>
+
+    <!-- همگام‌سازی دوبله -->
+    <string name="low_latency">شروع دوبله همزمان با صدای اصلی</string>
+    <string name="low_latency_hint">کمترین بافر ممکن؛ دوبله همان لحظه‌ای که مدل حرف می‌زند شنیده می‌شود.</string>
+    <string name="dub_sync">تاخیر عمدی دوبله</string>
+    <string name="strong_duck">پایین نگه‌داشتن صدای اصلی در تمام جلسه</string>
+    <string name="strong_duck_hint">صدای اصلی در کل دوبله پایین می‌ماند، نه فقط وسط جمله‌ها.</string>
+    <string name="original_level">بلندی صدای اصلی در فایل خروجی</string>
+
+    <!-- مانیتور توکن -->
+    <string name="monitor_tokens">نمایش مصرف توکن API</string>
+    <string name="monitor_tokens_hint">کارت مصرف توکن جِمینای در صفحهٔ اصلی نشان داده شود.</string>
+    <string name="section_tokens">مصرف توکن API جِمینای</string>
+    <string name="tokens_today">مصرف امروز (توکن)</string>
+    <string name="tokens_input">توکن ورودی</string>
+    <string name="tokens_output">توکن خروجی</string>
+    <string name="tokens_audio">توکن صوتی (ورودی/خروجی)</string>
+    <string name="tokens_turns">تعداد نوبت‌های محاسبه‌شده</string>
+    <string name="tokens_sessions">تعداد جلسه‌های دوبله</string>
+    <string name="tokens_peak">بیشترین حجم کانتکست جلسه</string>
+    <string name="tokens_reset_in">بازنشانی سقف روزانه در</string>
+    <string name="tokens_limit">سقف روزانهٔ توکن (از AI Studio)</string>
+    <string name="tokens_limit_hint">مثلاً ۱۰۰۰۰۰۰ — خالی = بدون سقف</string>
+    <string name="tokens_limit_unset">سقف روزانه تعیین نشده</string>
+    <string name="tokens_remaining">باقی‌مانده</string>
+    <string name="tokens_note">این شمارش از بلوک usageMetadata خودِ Gemini Live خوانده می‌شود و تقریبی است: در Live API کانتکست هر نوبت دوباره حساب می‌شود. گوگل هیچ خروجی رسمی برای «مقدار باقی‌ماندهٔ سهمیه» ندارد؛ سقف‌های RPM/TPM/RPD در AI Studio دیده می‌شوند و شمارندهٔ روزانه نیمه‌شب به وقت پسیفیک صفر می‌شود.</string>
+    <string name="tokens_dashboard">داشبورد مصرف گوگل</string>
+    <string name="tokens_reset_counter">صفر کردن شمارنده</string>
+    <string name="tokens_history">روزهای قبل</string>
+    <string name="tokens_quota_hit">گوگل خطای سهمیه (429) داد؛ سهمیهٔ روزانهٔ این کلید تمام شده است.</string>
+    <string name="tokens_retry_in">تلاش مجدد بعد از</string>
+
+    <!-- سازنده و کپی‌رایت -->
+    <string name="section_about">سازنده و کپی‌رایت</string>
+    <string name="about_role">توسعه‌دهندهٔ دوبله پارسی · اپ اندروید و افزونهٔ کروم</string>
+    <string name="about_rights">همهٔ حقوق محفوظ است.</string>
+    <string name="about_license">دوبله پارسی نسخهٔ ۱.۰.۰ · بدون تلمتری، بدون سرور واسط. کدها و ریلیزها در گیت‌هاب سازنده.</string>
+    <string name="about_star">ستاره در گیت‌هاب</string>
+    <string name="about_open">صفحهٔ گیت‌هاب</string>
+
+    <string name="err_quota">سهمیهٔ API جِمینای تمام شده یا محدود شده است (خطای ۴۲۹). بخش «مصرف توکن» را ببین.</string>
+</resources>

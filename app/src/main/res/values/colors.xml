@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Doble Parsi 1.0.0 — professional navy dark palette (matches the app icon) -->
+    <color name="dp_bg">#060A14</color>
+    <color name="dp_bg_elevated">#0F1626</color>
+    <color name="dp_surface">#131C30</color>
+    <color name="dp_border">#1E2942</color>
+    <color name="dp_text">#F2F6FF</color>
+    <color name="dp_text_secondary">#A7B4CE</color>
+    <color name="dp_text_muted">#7C8AA8</color>
+    <color name="dp_brand_start">#7C5CFF</color>
+    <color name="dp_brand_end">#2E7BFF</color>
+    <color name="dp_accent">#2DD4BF</color>
+    <color name="dp_danger">#FF5F6D</color>
+    <color name="ic_launcher_background">#2E7BFF</color>
+</resources>

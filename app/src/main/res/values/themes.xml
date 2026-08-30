@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+      Always-dark base theme. The previous DayNight parent let the platform hand
+      out light-mode text colours (black on navy = invisible text) to every view
+      that is not drawn by Compose. Everything is pinned explicitly now.
+    -->
+    <style name="Theme.DobleParsi" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@color/dp_bg</item>
+        <item name="android:navigationBarColor">@color/dp_bg</item>
+        <item name="android:windowBackground">@color/dp_bg</item>
+        <item name="android:colorBackground">@color/dp_bg</item>
+        <item name="android:textColorPrimary">@color/dp_text</item>
+        <item name="android:textColorSecondary">@color/dp_text_secondary</item>
+        <item name="android:textColorTertiary">@color/dp_text_muted</item>
+        <item name="android:textColorHint">@color/dp_text_muted</item>
+        <item name="android:textColorPrimaryInverse">@color/dp_bg</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="29">false</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+        <item name="colorPrimary">@color/dp_brand_end</item>
+        <item name="colorAccent">@color/dp_accent</item>
+    </style>
+</resources>

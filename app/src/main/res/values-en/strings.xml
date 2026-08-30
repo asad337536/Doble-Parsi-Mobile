@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- English -->
+    <string name="app_name">Doble Parsi</string>
+    <string name="app_tagline">AI live dubbing for any sound on your phone</string>
+    <string name="app_version">Version 1.0.0</string>
+
+    <string name="section_key">Access key</string>
+    <string name="section_engine">Dubbing engine</string>
+    <string name="section_outputs">Output &amp; playback</string>
+    <string name="section_advanced">Advanced</string>
+    <string name="section_transcript">Live transcript</string>
+
+    <string name="api_key">Gemini API key</string>
+    <string name="api_key_hint">AIza…</string>
+    <string name="api_key_help">Get a key from Google AI Studio. It stays in this app\'s private storage on this device.</string>
+    <string name="target_lang">Dub language</string>
+    <string name="model">Live translation model</string>
+
+    <string name="live_playback">Play the dub live</string>
+    <string name="live_playback_hint">Hear the dub through the speaker in real time.</string>
+    <string name="duck_original">Duck original audio while dubbing</string>
+    <string name="duck_original_hint">The original track drops while the dub voice speaks.</string>
+    <string name="save_audio">Save output audio file</string>
+    <string name="save_audio_hint">An m4a file named after the video, in Downloads.</string>
+    <string name="save_subtitle">Save subtitles</string>
+    <string name="save_subtitle_hint">An SRT file named after the video.</string>
+    <string name="bilingual">Also save source-language subtitles</string>
+    <string name="bilingual_hint">A separate SRT for the original language.</string>
+    <string name="bubble">Floating control bubble</string>
+    <string name="bubble_hint">Full session control from inside any app: start, stop and the dub time.</string>
+
+    <string name="audio_source">Audio file content</string>
+    <string name="audio_source_mix">Mix dub + original</string>
+    <string name="audio_source_dub">Dub only</string>
+    <string name="dub_volume">Dub volume</string>
+    <string name="subtitle_offset">Subtitle delay compensation</string>
+    <string name="millis_short">ms</string>
+
+    <string name="start">Start dubbing</string>
+    <string name="stop">Stop dubbing</string>
+
+    <string name="status_idle">Ready</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_live">Live dubbing</string>
+    <string name="status_speaking">Dub voice speaking</string>
+    <string name="status_finishing">Saving output…</string>
+    <string name="status_saved">Saved</string>
+
+    <string name="dub_text">Dubbed text</string>
+    <string name="source_text">Source text</string>
+
+    <string name="notification_channel">Dubbing session</string>
+    <string name="notification_channel_saved">Saved output</string>
+    <string name="notification_title">Live dubbing is running</string>
+    <string name="notification_stop">Stop</string>
+    <string name="notification_saving">Saving output…</string>
+    <string name="notification_saved_title">Dubbing output saved</string>
+    <string name="notification_saved_none">Session ended, nothing to save.</string>
+
+    <string name="perm_mic">Microphone permission is required to capture playback.</string>
+    <string name="perm_capture">Device audio capture was not allowed.</string>
+    <string name="perm_overlay">Allow “display over other apps” for the floating bubble.</string>
+    <string name="notif_access">Turn on notification access for Doble Parsi so files are named after the video that is playing.</string>
+    <string name="notif_access_open">Enable access</string>
+
+    <string name="err_no_key">Add your API key first.</string>
+    <string name="err_no_output">Turn on at least live playback, audio saving or subtitles.</string>
+    <string name="err_socket">Lost the Gemini connection, retrying…</string>
+
+    <string name="saved_files">Saved to Download/Doble Parsi</string>
+    <string name="how_to_title">How it works</string>
+    <string name="how_to">Play audio in any app (YouTube, Telegram, a browser…) and hit Start dubbing. The app taps the phone playback, dubs it in real time and, when you stop, saves the audio and subtitles named after the video.</string>
+    <string name="credit">Built by QW-AI-Code</string>
+    <string name="lang_toggle">فا</string>
+
+    <!-- Floating bubble -->
+    <string name="section_bubble">Floating control</string>
+    <string name="bubble_keep">Keep the bubble after a dub ends</string>
+    <string name="bubble_keep_hint">It never disappears: start the next video\'s dub straight from the bubble.</string>
+    <string name="bubble_timer">Show the dub time on the bubble</string>
+    <string name="bubble_timer_hint">A mm:ss timer inside the floating control.</string>
+    <string name="bubble_fade">Fade the bubble when idle</string>
+    <string name="bubble_fade_hint">Dims down between sessions so it never covers the video.</string>
+    <string name="bubble_collapse">Collapse into an edge tab when idle</string>
+    <string name="bubble_collapse_hint">Shrinks to a slim tab at the screen edge; one touch brings it back.</string>
+    <string name="bubble_snap">Auto-move to the closest edge</string>
+    <string name="bubble_snap_hint">After a drag the bubble snaps to the nearest edge and stays on screen.</string>
+    <string name="bubble_smart">Smart mode</string>
+    <string name="bubble_smart_hint">Follows the session: wakes up full size when a dub starts and tidies itself away sooner when idle.</string>
+    <string name="bubble_scale">Bubble size</string>
+    <string name="bubble_tip">Tap: start/stop the dub · drag: move · long press: remove until the next start.</string>
+
+    <!-- Dub sync -->
+    <string name="low_latency">Start the dub in sync with the original</string>
+    <string name="low_latency_hint">Smallest possible buffer: the dub is heard the moment the model speaks.</string>
+    <string name="dub_sync">Deliberate dub delay</string>
+    <string name="strong_duck">Hold the original down for the whole session</string>
+    <string name="strong_duck_hint">The original stays quiet through the dub, not only mid sentence.</string>
+    <string name="original_level">Original level in the saved file</string>
+
+    <!-- Token monitor -->
+    <string name="monitor_tokens">Show API token usage</string>
+    <string name="monitor_tokens_hint">Keep the Gemini token card on the main screen.</string>
+    <string name="section_tokens">Gemini API token usage</string>
+    <string name="tokens_today">Used today (tokens)</string>
+    <string name="tokens_input">Input tokens</string>
+    <string name="tokens_output">Output tokens</string>
+    <string name="tokens_audio">Audio tokens (in/out)</string>
+    <string name="tokens_turns">Counted turns</string>
+    <string name="tokens_sessions">Dubbing sessions</string>
+    <string name="tokens_peak">Largest session context</string>
+    <string name="tokens_reset_in">Daily quota resets in</string>
+    <string name="tokens_limit">Daily token budget (from AI Studio)</string>
+    <string name="tokens_limit_hint">e.g. 1000000 — empty = no budget</string>
+    <string name="tokens_limit_unset">No daily budget set</string>
+    <string name="tokens_remaining">Remaining</string>
+    <string name="tokens_note">Counted from Gemini Live\'s own usageMetadata, so it is an estimate: the Live API re-counts the session context on every turn. Google exposes no endpoint for the remaining quota; RPM/TPM/RPD limits live in AI Studio and daily counters reset at midnight Pacific time.</string>
+    <string name="tokens_dashboard">Google usage dashboard</string>
+    <string name="tokens_reset_counter">Reset counter</string>
+    <string name="tokens_history">Previous days</string>
+    <string name="tokens_quota_hit">Google returned a quota error (429): this key is out of daily quota.</string>
+    <string name="tokens_retry_in">Retry in</string>
+
+    <!-- Developer and copyright -->
+    <string name="section_about">Developer &amp; copyright</string>
+    <string name="about_role">Developer of Doble Parsi · Android app and Chrome extension</string>
+    <string name="about_rights">All rights reserved.</string>
+    <string name="about_license">Doble Parsi 1.0.0 · no telemetry, no relay server. Source and releases on the author\'s GitHub.</string>
+    <string name="about_star">Star on GitHub</string>
+    <string name="about_open">Open GitHub</string>
+
+    <string name="err_quota">The Gemini API quota is exhausted or throttled (429). Check the token usage card.</string>
+</resources>
